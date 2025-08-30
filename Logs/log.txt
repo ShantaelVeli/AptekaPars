@@ -1,0 +1,453 @@
+2025-08-30 08:57:00 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru
+2025-08-30 08:58:19 [Information] () Starting web application
+2025-08-30 08:58:20 [Information] (LaunchCategPars) Start parsing Apteka.ru
+2025-08-30 08:58:20 [Information] (LaunchCategPars) Finish parsing Apteka.ru
+2025-08-30 08:58:20 [Information] (LaunchProductsPars) Start parsing Apteka.ru
+2025-08-30 08:58:20 [Information] (LaunchProductsPars) Finish parsing Apteka.ru
+2025-08-30 08:58:20 [Information] (PullAllSubCategorys) data export of URLs under subcategories from the database
+2025-08-30 08:58:20 [Information] (ParsProductsUrl) Starting the products url parser
+2025-08-30 08:58:20 [Information] (ParsProductsUrl) Finishing the products url parser
+2025-08-30 08:58:50 [Information] (PullAllSubCategorys) data export of URLs under subcategories from the database
+2025-08-30 08:58:50 [Information] (ParsProductsUrl) Starting the products url parser
+2025-08-30 08:58:50 [Information] (ParsProductsUrl) Finishing the products url parser
+2025-08-30 08:59:05 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru
+2025-08-30 09:00:45 [Error] (HtmlDownlLoader) Page https://apteka.ru upload error
+2025-08-30 09:00:45 [Information] (PushDataBase) input of categories into the database
+2025-08-30 09:00:45 [Information] (PullAllMainCategorys) data export of URLs under maincategories from the database
+2025-08-30 09:00:45 [Information] (ParseSubCategorysAsync) Starting the sub categories parser
+2025-08-30 09:00:45 [Information] (ParseSubCategorysAsync) Finishing the sub categories parser
+2025-08-30 09:00:45 [Information] (PushDataBase) input of categories into the database
+2025-08-30 09:00:45 [Information] (PullAllSubCategorys) data export of URLs under subcategories from the database
+2025-08-30 09:00:45 [Information] (ParsProductsUrl) Starting the products url parser
+2025-08-30 09:00:45 [Information] (ParsProductsUrl) Finishing the products url parser
+2025-08-30 09:00:45 [Information] (PullAllSubCategorys) data export of URLs under subcategories from the database
+2025-08-30 09:00:45 [Information] (ParsProductsUrl) Starting the products url parser
+2025-08-30 09:00:45 [Information] (ParsProductsUrl) Finishing the products url parser
+2025-08-30 09:01:20 [Information] (PullAllSubCategorys) data export of URLs under subcategories from the database
+2025-08-30 09:01:20 [Information] (ParsProductsUrl) Starting the products url parser
+2025-08-30 09:01:20 [Information] (ParsProductsUrl) Finishing the products url parser
+2025-08-30 09:01:50 [Information] (PullAllSubCategorys) data export of URLs under subcategories from the database
+2025-08-30 09:01:50 [Information] (ParsProductsUrl) Starting the products url parser
+2025-08-30 09:01:50 [Information] (ParsProductsUrl) Finishing the products url parser
+2025-08-30 09:02:20 [Information] (PullAllSubCategorys) data export of URLs under subcategories from the database
+2025-08-30 09:02:20 [Information] (ParsProductsUrl) Starting the products url parser
+2025-08-30 09:02:20 [Information] (ParsProductsUrl) Finishing the products url parser
+2025-08-30 09:03:20 [Information] (PullAllSubCategorys) data export of URLs under subcategories from the database
+2025-08-30 09:03:20 [Information] (ParsProductsUrl) Starting the products url parser
+2025-08-30 09:03:20 [Information] (ParsProductsUrl) Finishing the products url parser
+2025-08-30 12:53:16 [Information] () Starting web application
+2025-08-30 12:53:17 [Information] (LaunchCategPars) Start parsing Apteka.ru
+2025-08-30 12:53:17 [Information] (LaunchCategPars) Finish parsing Apteka.ru
+2025-08-30 12:53:17 [Information] (LaunchProductsPars) Start parsing Apteka.ru
+2025-08-30 12:53:17 [Information] (LaunchProductsPars) Finish parsing Apteka.ru
+2025-08-30 12:53:17 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru
+2025-08-30 12:53:20 [Information] (HtmlDownlLoader) Page https://apteka.ru successfully exported,
+2025-08-30 12:53:20 [Information] (ParseMainCategorysAsync) Starting the main categories parser
+2025-08-30 12:53:20 [Information] (PushDataBase) input of categories into the database
+2025-08-30 12:53:20 [Information] (PullAllMainCategorys) data export of URLs under maincategories from the database
+2025-08-30 12:53:20 [Information] (ParseSubCategorysAsync) Starting the sub categories parser
+2025-08-30 12:53:25 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/medicines/
+2025-08-30 12:53:28 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/medicines/ successfully exported,
+2025-08-30 12:53:31 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/orvi/
+2025-08-30 12:53:33 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/orvi/ successfully exported,
+2025-08-30 12:53:36 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/otolaryngology/
+2025-08-30 12:53:38 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/otolaryngology/ successfully exported,
+2025-08-30 12:53:41 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/vitamin-mineral/
+2025-08-30 12:53:43 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/vitamin-mineral/ successfully exported,
+2025-08-30 12:53:47 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/derma_cosmetics/
+2025-08-30 12:53:50 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/derma_cosmetics/ successfully exported,
+2025-08-30 12:53:53 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/baby-child/
+2025-08-30 12:53:53 [Information] () HTTP "GET" "/" responded 404 in 1.2985 ms
+2025-08-30 12:53:55 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/baby-child/ successfully exported,
+2025-08-30 12:53:58 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/joint_diseases/
+2025-08-30 12:54:00 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/joint_diseases/ successfully exported,
+2025-08-30 12:54:05 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/allergy/
+2025-08-30 12:54:07 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/allergy/ successfully exported,
+2025-08-30 12:54:10 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/diabet/
+2025-08-30 12:54:13 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/diabet/ successfully exported,
+2025-08-30 12:54:17 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/homeopathy/
+2025-08-30 12:54:18 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/homeopathy/ successfully exported,
+2025-08-30 12:54:21 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/basic_care/
+2025-08-30 12:54:23 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/basic_care/ successfully exported,
+2025-08-30 12:54:27 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/losing_weight/
+2025-08-30 12:54:30 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/losing_weight/ successfully exported,
+2025-08-30 12:54:34 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/proficosmetics/
+2025-08-30 12:54:35 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/proficosmetics/ successfully exported,
+2025-08-30 12:54:38 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/beauty/
+2025-08-30 12:54:40 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/beauty/ successfully exported,
+2025-08-30 12:54:45 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/digestive_disorders/
+2025-08-30 12:54:47 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/digestive_disorders/ successfully exported,
+2025-08-30 12:54:50 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/diet/
+2025-08-30 12:54:52 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/diet/ successfully exported,
+2025-08-30 12:54:56 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/skin_lesions/
+2025-08-30 12:54:57 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/skin_lesions/ successfully exported,
+2025-08-30 12:55:02 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/hygiene/
+2025-08-30 12:55:05 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/hygiene/ successfully exported,
+2025-08-30 12:55:10 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/eye/
+2025-08-30 12:55:13 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/eye/ successfully exported,
+2025-08-30 12:55:17 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/mouth/
+2025-08-30 12:55:19 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/mouth/ successfully exported,
+2025-08-30 12:55:23 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/bandaging/
+2025-08-30 12:55:26 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/bandaging/ successfully exported,
+2025-08-30 12:55:29 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/herbaltea/
+2025-08-30 12:55:31 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/herbaltea/ successfully exported,
+2025-08-30 12:55:35 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/first_aid/
+2025-08-30 12:55:37 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/first_aid/ successfully exported,
+2025-08-30 12:55:41 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/fungus/
+2025-08-30 12:55:44 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/fungus/ successfully exported,
+2025-08-30 12:55:47 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/medical_products/
+2025-08-30 12:55:49 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/medical_products/ successfully exported,
+2025-08-30 12:55:54 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/nursing/
+2025-08-30 12:55:56 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/nursing/ successfully exported,
+2025-08-30 12:55:59 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/tests/
+2025-08-30 12:56:01 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/tests/ successfully exported,
+2025-08-30 12:56:04 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/devices/
+2025-08-30 12:56:06 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/devices/ successfully exported,
+2025-08-30 12:56:10 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/sport/
+2025-08-30 12:56:12 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/sport/ successfully exported,
+2025-08-30 12:56:16 [Information] (SearchProductsByCategoryIdAsync) Start data export of Products from the database
+2025-08-30 12:56:16 [Information] (SearchProductsByCategoryIdAsync) Finish export result: not found products
+2025-08-30 12:56:16 [Information] (SearchProductsByCategoryIdAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryIdAsync/1" responded 404 in 129.2086 ms
+2025-08-30 12:56:17 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/bad_habits/
+2025-08-30 12:56:20 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/bad_habits/ successfully exported,
+2025-08-30 12:56:25 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/orthopedics/
+2025-08-30 12:56:27 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/orthopedics/ successfully exported,
+2025-08-30 12:56:30 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/beekeeping/
+2025-08-30 12:56:32 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/beekeeping/ successfully exported,
+2025-08-30 12:56:36 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/gynecology/
+2025-08-30 12:56:38 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/gynecology/ successfully exported,
+2025-08-30 12:56:42 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/mobility/
+2025-08-30 12:56:44 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/mobility/ successfully exported,
+2025-08-30 12:56:48 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/rubber/
+2025-08-30 12:56:49 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/rubber/ successfully exported,
+2025-08-30 12:56:54 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/anti-insects/
+2025-08-30 12:56:57 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/anti-insects/ successfully exported,
+2025-08-30 12:57:02 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/hepatoprotectors/
+2025-08-30 12:57:04 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/hepatoprotectors/ successfully exported,
+2025-08-30 12:57:04 [Information] (ParseSubCategorysAsync) Finishing the sub categories parser
+2025-08-30 12:57:04 [Information] (PushDataBase) input of categories into the database
+2025-08-30 12:57:04 [Information] (PullAllSubCategorys) data export of URLs under subcategories from the database
+2025-08-30 12:57:04 [Information] (ParsProductsUrl) Starting the products url parser
+2025-08-30 12:57:09 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/medicines/gorm/
+2025-08-30 12:57:11 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/medicines/gorm/ successfully exported,
+2025-08-30 12:57:16 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/medicines/gorm/
+2025-08-30 12:57:18 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/medicines/gorm/ successfully exported,
+2025-08-30 12:57:21 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/medicines/gorm/
+2025-08-30 12:57:23 [Information] (HtmlDownlLoader) Page https://apteka.ru/category/medicines/gorm/ successfully exported,
+2025-08-30 12:57:27 [Information] (ParsProductsUrl) Finishing the products url parser
+2025-08-30 12:57:31 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/diprospan-2-mgml--5-mgml-suspenziya-dlya-inekczij-1-ml-ampuly-1-sht-653baaa7502f27dcc09807a4/
+2025-08-30 12:57:32 [Information] (HtmlDownlLoader) Page https://apteka.ru/product/diprospan-2-mgml--5-mgml-suspenziya-dlya-inekczij-1-ml-ampuly-1-sht-653baaa7502f27dcc09807a4/ successfully exported,
+2025-08-30 12:57:37 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/propiczil-50-mg-20-sht-tabletki-6798ad568c5123e581ec80b6/
+2025-08-30 12:57:39 [Information] (HtmlDownlLoader) Page https://apteka.ru/product/propiczil-50-mg-20-sht-tabletki-6798ad568c5123e581ec80b6/ successfully exported,
+2025-08-30 12:57:42 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/czinakalczet-003-n28-tabl-pplenobolochblister-63524b35fd4e012420820ec6/
+2025-08-30 12:57:44 [Information] (HtmlDownlLoader) Page https://apteka.ru/product/czinakalczet-003-n28-tabl-pplenobolochblister-63524b35fd4e012420820ec6/ successfully exported,
+2025-08-30 12:57:47 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/ziflukort-01-mg-20-sht-tabletki-blister-63564bcb0e7b3aa161f900cd/
+2025-08-30 12:57:51 [Information] (HtmlDownlLoader) Page https://apteka.ru/product/ziflukort-01-mg-20-sht-tabletki-blister-63564bcb0e7b3aa161f900cd/ successfully exported,
+2025-08-30 12:57:55 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/likvatirol-100-mkg5-ml-flakon-rastvor-dlya-priema-vnutr-100-ml--shpricz--adapter-66a798471071d979da0d21b3/
+2025-08-30 12:57:57 [Information] (HtmlDownlLoader) Page https://apteka.ru/product/likvatirol-100-mkg5-ml-flakon-rastvor-dlya-priema-vnutr-100-ml--shpricz--adapter-66a798471071d979da0d21b3/ successfully exported,
+2025-08-30 12:58:02 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/flosteron-7-mgml-suspenziya-dlya-inekczij-1-ml-ampuly-1-sht-63a59bde9268a6c07607b417/
+2025-08-30 12:58:04 [Information] (HtmlDownlLoader) Page https://apteka.ru/product/flosteron-7-mgml-suspenziya-dlya-inekczij-1-ml-ampuly-1-sht-63a59bde9268a6c07607b417/ successfully exported,
+2025-08-30 12:58:09 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/flosteron-7-mgml-suspenziya-dlya-inekczij-1-ml-ampuly-5-sht-5e326c3ff5a9ae000140a424/
+2025-08-30 12:58:11 [Information] (HtmlDownlLoader) Page https://apteka.ru/product/flosteron-7-mgml-suspenziya-dlya-inekczij-1-ml-ampuly-5-sht-5e326c3ff5a9ae000140a424/ successfully exported,
+2025-08-30 12:58:14 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/forsteo-250-mkgml-rastvor-dlya-podkozhnogo-vvedeniya-24-ml-kartridzh-5e326606ca7bdc000192b884/
+2025-08-30 12:58:16 [Information] (HtmlDownlLoader) Page https://apteka.ru/product/forsteo-250-mkgml-rastvor-dlya-podkozhnogo-vvedeniya-24-ml-kartridzh-5e326606ca7bdc000192b884/ successfully exported,
+2025-08-30 12:58:20 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/kenalog-40-40-mgml-suspenziya-dlya-inekczij-1-ml-ampuly-5-sht-5e3268d4ca7bdc000192d260/
+2025-08-30 12:58:21 [Information] (HtmlDownlLoader) Page https://apteka.ru/product/kenalog-40-40-mgml-suspenziya-dlya-inekczij-1-ml-ampuly-5-sht-5e3268d4ca7bdc000192d260/ successfully exported,
+2025-08-30 12:58:24 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/jodomarin-200-50-sht-tabletki-5e32674d65b5ab0001650ab2/
+2025-08-30 12:58:26 [Information] (HtmlDownlLoader) Page https://apteka.ru/product/jodomarin-200-50-sht-tabletki-5e32674d65b5ab0001650ab2/ successfully exported,
+2025-08-30 12:58:31 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/jodomarin-200-100-sht-tabletki-5e32673cf5a9ae0001407b6d/
+2025-08-30 12:58:33 [Information] (HtmlDownlLoader) Page https://apteka.ru/product/jodomarin-200-100-sht-tabletki-5e32673cf5a9ae0001407b6d/ successfully exported,
+2025-08-30 12:58:38 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/kortef-10-mg-100-sht-tabletki-5e32664365b5ab000164ffdd/
+2025-08-30 12:58:38 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/kortef-10-mg-100-sht-tabletki-5e32664365b5ab000164ffdd/ upload error
+2025-08-30 12:58:43 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/diprometa-2-mgml--5-mgml-1-sht-ampuly-suspenziya-dlya-inekczij-1-ml-68270632c434f3e2dc506e43/
+2025-08-30 12:58:44 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/diprometa-2-mgml--5-mgml-1-sht-ampuly-suspenziya-dlya-inekczij-1-ml-68270632c434f3e2dc506e43/ upload error
+2025-08-30 12:58:47 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/diprometa-2-mgml--5-mgml-1-sht-shpricz-suspenziya-dlya-inekczij-1-ml--igla-602e5769152591d9cd4dc77e/
+2025-08-30 12:58:47 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/diprometa-2-mgml--5-mgml-1-sht-shpricz-suspenziya-dlya-inekczij-1-ml--igla-602e5769152591d9cd4dc77e/ upload error
+2025-08-30 12:58:50 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/desmopressin-01-mg-30-sht-tabletki-6200d438a13154da642b468d/
+2025-08-30 12:58:51 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/desmopressin-01-mg-30-sht-tabletki-6200d438a13154da642b468d/ upload error
+2025-08-30 12:58:56 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/desmopressin-02-mg-30-sht-tabletki-6200d4811e730f223c965e4b/
+2025-08-30 12:58:56 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/desmopressin-02-mg-30-sht-tabletki-6200d4811e730f223c965e4b/ upload error
+2025-08-30 12:59:01 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/budenofalk-3-mg-20-sht-kapsuly-5e32775eca7bdc000193413c/
+2025-08-30 12:59:02 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/budenofalk-3-mg-20-sht-kapsuly-5e32775eca7bdc000193413c/ upload error
+2025-08-30 12:59:05 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/budenofalk-9-mg-20-sht-paket-granuly-kishechnorastvorimye-5e3269f765b5ab0001651f40/
+2025-08-30 12:59:06 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/budenofalk-9-mg-20-sht-paket-granuly-kishechnorastvorimye-5e3269f765b5ab0001651f40/ upload error
+2025-08-30 12:59:09 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/czetrotid-025-mg-7-sht-flakon-liofilizat-dlya-prigotovleniya-rastvora-dlya-podkozhnogo-vvedeniyashpricz-s-rastvoritelem-1-ml-7-shtigla-14shttampon-14-sht-673d9bed27642562bfdd3b93/
+2025-08-30 12:59:09 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/czetrotid-025-mg-7-sht-flakon-liofilizat-dlya-prigotovleniya-rastvora-dlya-podkozhnogo-vvedeniyashpricz-s-rastvoritelem-1-ml-7-shtigla-14shttampon-14-sht-673d9bed27642562bfdd3b93/ upload error
+2025-08-30 12:59:14 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/medrol-16-mg-50-sht-tabletki-5e3274d765b5ab0001657093/
+2025-08-30 12:59:15 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/medrol-16-mg-50-sht-tabletki-5e3274d765b5ab0001657093/ upload error
+2025-08-30 12:59:18 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/metilprednizolon-farmasintez-4-mg-30-sht-tabletki-682719d889719d33a1d50edf/
+2025-08-30 12:59:18 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/metilprednizolon-farmasintez-4-mg-30-sht-tabletki-682719d889719d33a1d50edf/ upload error
+2025-08-30 12:59:22 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/ozurdeks-07-mg-implantat-5e32638365b5ab000164f004/
+2025-08-30 12:59:23 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/ozurdeks-07-mg-implantat-5e32638365b5ab000164f004/ upload error
+2025-08-30 12:59:28 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/prednizolon-5-mg-100-sht-tabletki-5e3276c665b5ab0001658032/
+2025-08-30 12:59:28 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/prednizolon-5-mg-100-sht-tabletki-5e3276c665b5ab0001658032/ upload error
+2025-08-30 12:59:33 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/nabor-iz-2-up-flosteron-amp-1ml-1-688760f26155477074664685/
+2025-08-30 12:59:34 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/nabor-iz-2-up-flosteron-amp-1ml-1-688760f26155477074664685/ upload error
+2025-08-30 12:59:38 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/l-tiroksin-50-berlin-xemi-50-sht-tabletki-5e32776265b5ab00016586a3/
+2025-08-30 12:59:38 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/l-tiroksin-50-berlin-xemi-50-sht-tabletki-5e32776265b5ab00016586a3/ upload error
+2025-08-30 12:59:43 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/jodomarin-100-100-sht-tabletki-5e3263def5a9ae0001406308/
+2025-08-30 12:59:46 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/jodomarin-100-100-sht-tabletki-5e3263def5a9ae0001406308/ upload error
+2025-08-30 12:59:51 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/metilprednizolon-250-mg-1-sht-ampuly-liofilizat-dlya-prigotovleniya-rastvora-dlya-vnutrivennogo-i-vnutrimyshechnogo-vvedeniyarastvoritel-4-ml-1-sht-668410bd5a0bdf26c8efa404/
+2025-08-30 12:59:51 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/metilprednizolon-250-mg-1-sht-ampuly-liofilizat-dlya-prigotovleniya-rastvora-dlya-vnutrivennogo-i-vnutrimyshechnogo-vvedeniyarastvoritel-4-ml-1-sht-668410bd5a0bdf26c8efa404/ upload error
+2025-08-30 12:59:56 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/antikva-rapid-60-mkg-30-sht-tabletki-dispergiruemye-v-polosti-rta-5e3269cc65b5ab0001651e12/
+2025-08-30 12:59:57 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/antikva-rapid-60-mkg-30-sht-tabletki-dispergiruemye-v-polosti-rta-5e3269cc65b5ab0001651e12/ upload error
+2025-08-30 13:00:01 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/antikva-rapid-120-mkg-30-sht-tabletki-dispergiruemye-v-polosti-rta-5e3269cd65b5ab0001651e13/
+2025-08-30 13:00:02 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/antikva-rapid-120-mkg-30-sht-tabletki-dispergiruemye-v-polosti-rta-5e3269cd65b5ab0001651e13/ upload error
+2025-08-30 13:00:07 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/l-tiroksin-75-berlin-xemi-75-mkg-100-sht-tabletki-5e326b1eca7bdc000192e363/
+2025-08-30 13:00:07 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/l-tiroksin-75-berlin-xemi-75-mkg-100-sht-tabletki-5e326b1eca7bdc000192e363/ upload error
+2025-08-30 13:00:12 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/oktreotid-depo-10-mg-liofilizat-dlya-prigotovleniya-suspenzii-5e3277c4ca7bdc00019344dc/
+2025-08-30 13:00:13 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/oktreotid-depo-10-mg-liofilizat-dlya-prigotovleniya-suspenzii-5e3277c4ca7bdc00019344dc/ upload error
+2025-08-30 13:00:16 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/oktreotid-depo-20-mg-liofilizat-dlya-prigotovleniya-suspenzii-5e327793f5a9ae000140f9af/
+2025-08-30 13:00:17 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/oktreotid-depo-20-mg-liofilizat-dlya-prigotovleniya-suspenzii-5e327793f5a9ae000140f9af/ upload error
+2025-08-30 13:00:20 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/oktreotid-depo-30-mg-liofilizat-dlya-prigotovleniya-suspenzii-5e3277b8f5a9ae000140faff/
+2025-08-30 13:00:20 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/oktreotid-depo-30-mg-liofilizat-dlya-prigotovleniya-suspenzii-5e3277b8f5a9ae000140faff/ upload error
+2025-08-30 13:00:23 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/glyukagen-1mg-gipokit-1-mg-1-sht-flakon-liofilizat-dlya-prigotovleniya-rastvora-5e3274d665b5ab0001657080/
+2025-08-30 13:00:24 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/glyukagen-1mg-gipokit-1-mg-1-sht-flakon-liofilizat-dlya-prigotovleniya-rastvora-5e3274d665b5ab0001657080/ upload error
+2025-08-30 13:00:28 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-4-mgml-rastvor-dlya-inekczij-1-ml-ampuly-25-sht-5e3279c065b5ab0001659bc2/
+2025-08-30 13:00:28 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-4-mgml-rastvor-dlya-inekczij-1-ml-ampuly-25-sht-5e3279c065b5ab0001659bc2/ upload error
+2025-08-30 13:00:32 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/prednizolon-bufus-30-mgml-rastvor-dlya-vnutrivennogo-i-vnutrimyshechnogo-vvedeniya-1-ml-ampuly-10-sht-5e3269aaca7bdc000192d7db/
+2025-08-30 13:00:33 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/prednizolon-bufus-30-mgml-rastvor-dlya-vnutrivennogo-i-vnutrimyshechnogo-vvedeniya-1-ml-ampuly-10-sht-5e3269aaca7bdc000192d7db/ upload error
+2025-08-30 13:00:37 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/l-tiroksin-125-berlin-xemi-100-sht-tabletki-5e326c2765b5ab0001653213/
+2025-08-30 13:00:37 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/l-tiroksin-125-berlin-xemi-100-sht-tabletki-5e326c2765b5ab0001653213/ upload error
+2025-08-30 13:00:41 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/kortizon-25-mg-80-sht-tabletki-5e3268b465b5ab00016516a7/
+2025-08-30 13:00:42 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/kortizon-25-mg-80-sht-tabletki-5e3268b465b5ab00016516a7/ upload error
+2025-08-30 13:00:45 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-vial-4-mgml-rastvor-dlya-inekczij-1-ml-ampuly-25-sht-5e327778f5a9ae000140f8c6/
+2025-08-30 13:00:46 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-vial-4-mgml-rastvor-dlya-inekczij-1-ml-ampuly-25-sht-5e327778f5a9ae000140f8c6/ upload error
+2025-08-30 13:00:51 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/l-tiroksin-100-berlin-xemi-100-mkg-50-sht-tabletki-5e32775665b5ab0001658659/
+2025-08-30 13:00:51 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/l-tiroksin-100-berlin-xemi-100-mkg-50-sht-tabletki-5e32775665b5ab0001658659/ upload error
+2025-08-30 13:00:56 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/l-tiroksin-100-berlin-xemi-100-mkg-100-sht-tabletki-5e327755f5a9ae000140f7ae/
+2025-08-30 13:00:57 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/l-tiroksin-100-berlin-xemi-100-mkg-100-sht-tabletki-5e327755f5a9ae000140f7ae/ upload error
+2025-08-30 13:01:02 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/tirozol-5-mg-50-sht-tabletki-pokrytye-plenochnoj-obolochkoj-5ea93f5c3b56fc0001397f05/
+2025-08-30 13:01:02 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/tirozol-5-mg-50-sht-tabletki-pokrytye-plenochnoj-obolochkoj-5ea93f5c3b56fc0001397f05/ upload error
+2025-08-30 13:01:07 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/tirozol-10-mg-50-sht-tabletki-pokrytye-plenochnoj-obolochkoj-5ea949aa3aca930001623d2b/
+2025-08-30 13:01:08 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/tirozol-10-mg-50-sht-tabletki-pokrytye-plenochnoj-obolochkoj-5ea949aa3aca930001623d2b/ upload error
+2025-08-30 13:01:13 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/solu-kortef-01-n1-flak-liofilizat-dr-ra-vv-vmrastvoritel-6528c7a9904f18bb9ba77cb5/
+2025-08-30 13:01:14 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/solu-kortef-01-n1-flak-liofilizat-dr-ra-vv-vmrastvoritel-6528c7a9904f18bb9ba77cb5/ upload error
+2025-08-30 13:01:18 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-krka-4-mg-10-sht-tabletki-618a3e57f02299d258660549/
+2025-08-30 13:01:18 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-krka-4-mg-10-sht-tabletki-618a3e57f02299d258660549/ upload error
+2025-08-30 13:01:22 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-krka-4-mg-20-sht-tabletki-618a18868216709bb72ec73b/
+2025-08-30 13:01:23 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-krka-4-mg-20-sht-tabletki-618a18868216709bb72ec73b/ upload error
+2025-08-30 13:01:28 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/l-tiroksin-150-berlin-xemi-100-sht-tabletki-5e326c28ca7bdc000192ecc6/
+2025-08-30 13:01:28 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/l-tiroksin-150-berlin-xemi-100-sht-tabletki-5e326c28ca7bdc000192ecc6/ upload error
+2025-08-30 13:01:31 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/eutiroks-25-mkg-100-sht-tabletki-634fad222f4c5c61097eb7e2/
+2025-08-30 13:01:32 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/eutiroks-25-mkg-100-sht-tabletki-634fad222f4c5c61097eb7e2/ upload error
+2025-08-30 13:01:36 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/eutiroks-50-mkg-100-sht-tabletki-63888ce6a92e4be6a550ade5/
+2025-08-30 13:01:37 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/eutiroks-50-mkg-100-sht-tabletki-63888ce6a92e4be6a550ade5/ upload error
+2025-08-30 13:01:41 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/eutiroks-75-mkg-100-sht-tabletki-632b0f1f8d62645df26f7069/
+2025-08-30 13:01:41 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/eutiroks-75-mkg-100-sht-tabletki-632b0f1f8d62645df26f7069/ upload error
+2025-08-30 13:01:46 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/eutiroks-88-mkg-100-sht-tabletki-634faf68217282da943e28da/
+2025-08-30 13:01:47 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/eutiroks-88-mkg-100-sht-tabletki-634faf68217282da943e28da/ upload error
+2025-08-30 13:01:51 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/eutiroks-100-mkg-100-sht-tabletki-63468dd16457f8ab32a0e717/
+2025-08-30 13:01:52 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/eutiroks-100-mkg-100-sht-tabletki-63468dd16457f8ab32a0e717/ upload error
+2025-08-30 13:01:56 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/eutiroks-112-mkg-100-sht-tabletki-634fae772f4c5c61097eb7f0/
+2025-08-30 13:01:56 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/eutiroks-112-mkg-100-sht-tabletki-634fae772f4c5c61097eb7f0/ upload error
+2025-08-30 13:01:59 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/eutiroks-125-mkg-100-sht-tabletki-63197d358f065849a3c8b00a/
+2025-08-30 13:02:00 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/eutiroks-125-mkg-100-sht-tabletki-63197d358f065849a3c8b00a/ upload error
+2025-08-30 13:02:03 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/eutiroks-137-mkg-100-sht-tabletki-6348f945c5322bd6b4d670a2/
+2025-08-30 13:02:03 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/eutiroks-137-mkg-100-sht-tabletki-6348f945c5322bd6b4d670a2/ upload error
+2025-08-30 13:02:07 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/eutiroks-150-mkg-100-sht-tabletki-63e39864104440ff9c3ebe4e/
+2025-08-30 13:02:08 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/eutiroks-150-mkg-100-sht-tabletki-63e39864104440ff9c3ebe4e/ upload error
+2025-08-30 13:02:13 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/prednizolon-reneval-0005-n100-tabl-63933f99761f5335abffd774/
+2025-08-30 13:02:14 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/prednizolon-reneval-0005-n100-tabl-63933f99761f5335abffd774/ upload error
+2025-08-30 13:02:17 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/prednizolon-5-mg-100-sht-tabletki-68272441783c698fcff33234/
+2025-08-30 13:02:17 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/prednizolon-5-mg-100-sht-tabletki-68272441783c698fcff33234/ upload error
+2025-08-30 13:02:22 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-01-kapli-glaznye-5-ml-5e327a33f5a9ae0001411096/
+2025-08-30 13:02:23 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-01-kapli-glaznye-5-ml-5e327a33f5a9ae0001411096/ upload error
+2025-08-30 13:02:27 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/sandostatin-01-mgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-ampuly-5-sht-678a03b0ce07b620d923ded8/
+2025-08-30 13:02:27 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/sandostatin-01-mgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-ampuly-5-sht-678a03b0ce07b620d923ded8/ upload error
+2025-08-30 13:02:31 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-reneval-05-mg-112-sht-tabletki-6537c19278281553421769dd/
+2025-08-30 13:02:32 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-reneval-05-mg-112-sht-tabletki-6537c19278281553421769dd/ upload error
+2025-08-30 13:02:35 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/merkazolil-5-mg-50-sht-tabletki-5e3266d9f5a9ae0001407758/
+2025-08-30 13:02:36 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/merkazolil-5-mg-50-sht-tabletki-5e3266d9f5a9ae0001407758/ upload error
+2025-08-30 13:02:40 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/prednizol-30-mgml-rastvor-dlya-vnutrivennogo-i-vnutrimyshechnogo-vvedeniya-1-ml-ampuly-3-sht-5e326819ca7bdc000192cb4d/
+2025-08-30 13:02:40 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/prednizol-30-mgml-rastvor-dlya-vnutrivennogo-i-vnutrimyshechnogo-vvedeniya-1-ml-ampuly-3-sht-5e326819ca7bdc000192cb4d/ upload error
+2025-08-30 13:02:45 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/oktreotid-50-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e32764d65b5ab0001657cf0/
+2025-08-30 13:02:46 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/oktreotid-50-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e32764d65b5ab0001657cf0/ upload error
+2025-08-30 13:02:51 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/oktreotid-100-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e3274cc65b5ab0001657013/
+2025-08-30 13:02:51 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/oktreotid-100-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e3274cc65b5ab0001657013/ upload error
+2025-08-30 13:02:54 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/oktreotid-300-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e326c1f65b5ab00016531d4/
+2025-08-30 13:02:55 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/oktreotid-300-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e326c1f65b5ab00016531d4/ upload error
+2025-08-30 13:02:58 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/oktreotid-600-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-2-sht-5e3273cff5a9ae000140d8ef/
+2025-08-30 13:02:59 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/oktreotid-600-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-2-sht-5e3273cff5a9ae000140d8ef/ upload error
+2025-08-30 13:03:03 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/oktreotid-50-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e327682f5a9ae000140efe3/
+2025-08-30 13:03:03 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/oktreotid-50-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e327682f5a9ae000140efe3/ upload error
+2025-08-30 13:03:08 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/oktreotid-100-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e32756cca7bdc0001932f9a/
+2025-08-30 13:03:09 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/oktreotid-100-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e32756cca7bdc0001932f9a/ upload error
+2025-08-30 13:03:14 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/oktreotid-300-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e32756b65b5ab00016574de/
+2025-08-30 13:03:14 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/oktreotid-300-mkgml-rastvor-dlya-vnutrivennogo-i-podkozhnogo-vvedeniya-1-ml-ampuly-5-sht-5e32756b65b5ab00016574de/ upload error
+2025-08-30 13:03:18 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/kaliya-jodid-reneval-100-mkg-112-sht-tabletki-5e327a53ca7bdc0001935ae5/
+2025-08-30 13:03:19 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/kaliya-jodid-reneval-100-mkg-112-sht-tabletki-5e327a53ca7bdc0001935ae5/ upload error
+2025-08-30 13:03:22 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/kaliya-jodid-reneval-200-mkg-112-sht-tabletki-5e327866f5a9ae0001410180/
+2025-08-30 13:03:22 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/kaliya-jodid-reneval-200-mkg-112-sht-tabletki-5e327866f5a9ae0001410180/ upload error
+2025-08-30 13:03:26 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-reneval-05-mg-56-sht-tabletki-64a438b2a93e308cbfe8b292/
+2025-08-30 13:03:27 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-reneval-05-mg-56-sht-tabletki-64a438b2a93e308cbfe8b292/ upload error
+2025-08-30 13:03:32 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/jodbalans-100-mkg-100-sht-tabletki-601cfc242d6042e5b2bf5dc6/
+2025-08-30 13:03:33 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/jodbalans-100-mkg-100-sht-tabletki-601cfc242d6042e5b2bf5dc6/ upload error
+2025-08-30 13:03:36 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/jodbalans-200-mkg-100-sht-tabletki-601cfc64987efdac3ac67e17/
+2025-08-30 13:03:36 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/jodbalans-200-mkg-100-sht-tabletki-601cfc64987efdac3ac67e17/ upload error
+2025-08-30 13:03:41 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/kalczemara-30-mg-28-sht-tabletki-pokrytye-plenochnoj-obolochkoj-667ea21f302b73361405fa0f/
+2025-08-30 13:03:42 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/kalczemara-30-mg-28-sht-tabletki-pokrytye-plenochnoj-obolochkoj-667ea21f302b73361405fa0f/ upload error
+2025-08-30 13:03:45 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/kaliya-jodid-02-mg-50-sht-blister-tabletki-62d1279b3962ff4996573e22/
+2025-08-30 13:03:45 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/kaliya-jodid-02-mg-50-sht-blister-tabletki-62d1279b3962ff4996573e22/ upload error
+2025-08-30 13:03:48 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/prednizolon-5-mg-60-sht-tabletki-blister-60190927884c2e510750f5ca/
+2025-08-30 13:03:49 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/prednizolon-5-mg-60-sht-tabletki-blister-60190927884c2e510750f5ca/ upload error
+2025-08-30 13:03:54 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/prednizolon-05-maz-dlya-naruzhnogo-primeneniya-15-gr-5e3278c6f5a9ae000141040b/
+2025-08-30 13:03:55 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/prednizolon-05-maz-dlya-naruzhnogo-primeneniya-15-gr-5e3278c6f5a9ae000141040b/ upload error
+2025-08-30 13:03:59 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/mikrojodid-200-200-mkg-100-sht-tabletki-627d077ccb04ca3e48a70aa6/
+2025-08-30 13:03:59 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/mikrojodid-200-200-mkg-100-sht-tabletki-627d077ccb04ca3e48a70aa6/ upload error
+2025-08-30 13:04:04 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/l-tiroksin-50-mkg-50-sht-tabletki-5e3274c365b5ab0001656fc3/
+2025-08-30 13:04:05 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/l-tiroksin-50-mkg-50-sht-tabletki-5e3274c365b5ab0001656fc3/ upload error
+2025-08-30 13:04:10 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/l-tiroksin-100-mkg-50-sht-tabletki-5e32762eca7bdc00019336a3/
+2025-08-30 13:04:10 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/l-tiroksin-100-mkg-50-sht-tabletki-5e32762eca7bdc00019336a3/ upload error
+2025-08-30 13:04:14 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/nabor-iz-3up-biprozon-0007ml-1ml-n1-amp-susp-din-so-skidkoj-685a3259ae2a3e16d9b1eca9/
+2025-08-30 13:04:15 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/nabor-iz-3up-biprozon-0007ml-1ml-n1-amp-susp-din-so-skidkoj-685a3259ae2a3e16d9b1eca9/ upload error
+2025-08-30 13:04:20 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/nabor-iz-2up-biprozon-0007ml-1ml-n1-amp-susp-din-so-skidkoj-685a322a741afc55d5b16763/
+2025-08-30 13:04:20 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/nabor-iz-2up-biprozon-0007ml-1ml-n1-amp-susp-din-so-skidkoj-685a322a741afc55d5b16763/ upload error
+2025-08-30 13:04:23 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/biprozon-7-mgml-1-sht-ampuly-suspenziya-dlya-inekczij-1-ml-680f4c957546893cc0cbf56d/
+2025-08-30 13:04:24 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/biprozon-7-mgml-1-sht-ampuly-suspenziya-dlya-inekczij-1-ml-680f4c957546893cc0cbf56d/ upload error
+2025-08-30 13:04:29 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/mikrojodid-100-100-mkg-100-sht-tabletki-627d00afcb04ca3e48a70a8d/
+2025-08-30 13:04:30 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/mikrojodid-100-100-mkg-100-sht-tabletki-627d00afcb04ca3e48a70a8d/ upload error
+2025-08-30 13:04:33 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/oktreteks-01-mgml-5-sht-ampuly-rastvor-dlya-infuzij-i-podkozhnogo-vvedeniya-5e326601ca7bdc000192b854/
+2025-08-30 13:04:33 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/oktreteks-01-mgml-5-sht-ampuly-rastvor-dlya-infuzij-i-podkozhnogo-vvedeniya-5e326601ca7bdc000192b854/ upload error
+2025-08-30 13:04:38 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/levitirin-50-mkg-50-sht-tabletki-6450d3de4a28f969b80afeb5/
+2025-08-30 13:04:39 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/levitirin-50-mkg-50-sht-tabletki-6450d3de4a28f969b80afeb5/ upload error
+2025-08-30 13:04:43 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/levitirin-100-mkg-100-sht-tabletki-6450d3a04a28f969b80afeb3/
+2025-08-30 13:04:44 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/levitirin-100-mkg-100-sht-tabletki-6450d3a04a28f969b80afeb3/ upload error
+2025-08-30 13:04:49 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/somavert-10-mg-30-sht-flakon-liofilizat-dlya-prigotovleniya-rastvora-dlya-podkozhnogo-vvedeniya-komplektnost-rastvoritel-1-ml-30-sht-shpricz-5e32725c65b5ab0001655e56/
+2025-08-30 13:04:49 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/somavert-10-mg-30-sht-flakon-liofilizat-dlya-prigotovleniya-rastvora-dlya-podkozhnogo-vvedeniya-komplektnost-rastvoritel-1-ml-30-sht-shpricz-5e32725c65b5ab0001655e56/ upload error
+2025-08-30 13:04:52 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/propiczil-005-n100-tabl-inostrup-66572b5b2479e2ad7be4fbd3/
+2025-08-30 13:04:53 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/propiczil-005-n100-tabl-inostrup-66572b5b2479e2ad7be4fbd3/ upload error
+2025-08-30 13:04:57 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/solu-medrol-05-n1-flak-liofilizat-dr-ra-vv-vm-rast-l-78ml-n1-flak-68078463e64a22d16c157e24/
+2025-08-30 13:04:57 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/solu-medrol-05-n1-flak-liofilizat-dr-ra-vv-vm-rast-l-78ml-n1-flak-68078463e64a22d16c157e24/ upload error
+2025-08-30 13:05:00 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-4-mgml-rastvor-dlya-inekczij-2-ml-ampuly-10-sht-5e3263deca7bdc000192ac4b/
+2025-08-30 13:05:01 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-4-mgml-rastvor-dlya-inekczij-2-ml-ampuly-10-sht-5e3263deca7bdc000192ac4b/ upload error
+2025-08-30 13:05:04 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-4-mgml-rastvor-dlya-inekczij-1-ml-ampuly-10-sht-5e326c3ef5a9ae000140a419/
+2025-08-30 13:05:04 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-4-mgml-rastvor-dlya-inekczij-1-ml-ampuly-10-sht-5e326c3ef5a9ae000140a419/ upload error
+2025-08-30 13:05:08 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-4-mgml-rastvor-dlya-inekczij-2-ml-ampuly-10-sht-5e5e1bfa102b1e00012c5bfe/
+2025-08-30 13:05:09 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-4-mgml-rastvor-dlya-inekczij-2-ml-ampuly-10-sht-5e5e1bfa102b1e00012c5bfe/ upload error
+2025-08-30 13:05:14 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/lokoid-01-maz-dlya-naruzhnogo-primeneniya-30-gr-5e327623f5a9ae000140ecd6/
+2025-08-30 13:05:15 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/lokoid-01-maz-dlya-naruzhnogo-primeneniya-30-gr-5e327623f5a9ae000140ecd6/ upload error
+2025-08-30 13:05:18 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-bufus-4mgml-rastvor-dlya-inekczij-1-ml-ampuly-10-sht-61dc313e2c47cb2588523981/
+2025-08-30 13:05:18 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-bufus-4mgml-rastvor-dlya-inekczij-1-ml-ampuly-10-sht-61dc313e2c47cb2588523981/ upload error
+2025-08-30 13:05:22 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-bufus-4-mgml-rastvor-dlya-inekczij-1-ml-ampuly-25-sht-61f29f9e1823febd5e8811b6/
+2025-08-30 13:05:23 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-bufus-4-mgml-rastvor-dlya-inekczij-1-ml-ampuly-25-sht-61f29f9e1823febd5e8811b6/ upload error
+2025-08-30 13:05:27 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/l-tiroksin-reneval-50-mkg-56-sht-tabletki-626bc51f9772af0007bff9a7/
+2025-08-30 13:05:27 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/l-tiroksin-reneval-50-mkg-56-sht-tabletki-626bc51f9772af0007bff9a7/ upload error
+2025-08-30 13:05:31 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/l-tiroksin-reneval-50-mkg-112-sht-tabletki-646f691c386b3703ef00f866/
+2025-08-30 13:05:32 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/l-tiroksin-reneval-50-mkg-112-sht-tabletki-646f691c386b3703ef00f866/ upload error
+2025-08-30 13:05:36 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/deksametazon-4-mgml-rastvor-dlya-inekczij-1-ml-ampuly-10-sht-626baccb10640aa7bb8c8e44/
+2025-08-30 13:05:36 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/deksametazon-4-mgml-rastvor-dlya-inekczij-1-ml-ampuly-10-sht-626baccb10640aa7bb8c8e44/ upload error
+2025-08-30 13:05:41 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/product/prednizolon-30-mgml-10-sht-ampuly-rastvor-dlya-vnutrivennogo-i-vnutrimyshechnogo-vvedeniya-1-ml-62b19efe673473f0c1ee74a4/
+2025-08-30 13:05:42 [Error] (HtmlDownlLoader) Page https://apteka.ru/product/prednizolon-30-mgml-10-sht-ampuly-rastvor-dlya-vnutrivennogo-i-vnutrimyshechnogo-vvedeniya-1-ml-62b19efe673473f0c1ee74a4/ upload error
+2025-08-30 13:05:42 [Information] (PushDataBase) input of products into the database
+2025-08-30 13:05:42 [Information] (PullAllSubCategorys) data export of URLs under subcategories from the database
+2025-08-30 13:05:42 [Information] (ParsProductsUrl) Starting the products url parser
+2025-08-30 13:05:46 [Information] (HtmlDownlLoader) HTML page code export: https://apteka.ru/category/medicines/gorm/
+2025-08-30 13:05:47 [Error] (HtmlDownlLoader) Page https://apteka.ru/category/medicines/gorm/ upload error
+2025-08-30 13:05:50 [Information] (ParsProductsUrl) Finishing the products url parser
+2025-08-30 13:05:50 [Information] (PushDataBase) input of products into the database
+2025-08-30 13:12:17 [Information] () Starting web application
+2025-08-30 13:12:18 [Information] (LaunchCategPars) Start parsing Apteka.ru
+2025-08-30 13:12:18 [Information] (LaunchCategPars) Finish parsing Apteka.ru
+2025-08-30 13:12:18 [Information] (LaunchProductsPars) Start parsing Apteka.ru
+2025-08-30 13:12:18 [Information] (LaunchProductsPars) Finish parsing Apteka.ru
+2025-08-30 13:14:20 [Information] () Starting web application
+2025-08-30 13:14:20 [Information] (LaunchCategPars) Start parsing Apteka.ru
+2025-08-30 13:14:20 [Information] (LaunchCategPars) Finish parsing Apteka.ru
+2025-08-30 13:14:20 [Information] (LaunchProductsPars) Start parsing Apteka.ru
+2025-08-30 13:14:20 [Information] (LaunchProductsPars) Finish parsing Apteka.ru
+2025-08-30 13:14:42 [Information] (SearchProductsByCategoryIdAsync) Start data export of Products from the database
+2025-08-30 13:14:42 [Information] (SearchProductsByCategoryIdAsync) data export of Products success
+2025-08-30 13:14:42 [Information] (SearchProductsByCategoryIdAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryIdAsync/1" responded 200 in 245.3612 ms
+2025-08-30 13:16:05 [Information] () Starting web application
+2025-08-30 13:16:06 [Information] (LaunchCategPars) Start parsing Apteka.ru
+2025-08-30 13:16:06 [Information] (LaunchCategPars) Finish parsing Apteka.ru
+2025-08-30 13:16:06 [Information] (LaunchProductsPars) Start parsing Apteka.ru
+2025-08-30 13:16:06 [Information] (LaunchProductsPars) Finish parsing Apteka.ru
+2025-08-30 13:16:38 [Information] () Starting web application
+2025-08-30 13:16:38 [Information] (LaunchCategPars) Start parsing Apteka.ru
+2025-08-30 13:16:38 [Information] (LaunchCategPars) Finish parsing Apteka.ru
+2025-08-30 13:16:38 [Information] (LaunchProductsPars) Start parsing Apteka.ru
+2025-08-30 13:16:38 [Information] (LaunchProductsPars) Finish parsing Apteka.ru
+2025-08-30 13:20:00 [Information] () Starting web application
+2025-08-30 13:20:01 [Information] (LaunchCategPars) Start parsing Apteka.ru
+2025-08-30 13:20:01 [Information] (LaunchCategPars) Finish parsing Apteka.ru
+2025-08-30 13:20:01 [Information] (LaunchProductsPars) Start parsing Apteka.ru
+2025-08-30 13:20:01 [Information] (LaunchProductsPars) Finish parsing Apteka.ru
+2025-08-30 13:20:06 [Information] (SearchProductsByCategoryIdAsync) Start data export of Products from the database
+2025-08-30 13:20:06 [Information] (SearchProductsByCategoryIdAsync) data export of Products success
+2025-08-30 13:20:06 [Information] (SearchProductsByCategoryIdAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryIdAsync/1" responded 200 in 231.3946 ms
+2025-08-30 13:20:50 [Information] (SearchProductsByCategoryIdAsync) Start data export of Products from the database
+2025-08-30 13:20:50 [Information] (SearchProductsByCategoryIdAsync) Finish export result: not found products
+2025-08-30 13:20:50 [Information] (SearchProductsByCategoryIdAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryIdAsync/2" responded 404 in 91.6181 ms
+2025-08-30 13:20:54 [Information] (SearchProductsByCategoryIdAsync) Start data export of Products from the database
+2025-08-30 13:20:54 [Information] (SearchProductsByCategoryIdAsync) data export of Products success
+2025-08-30 13:20:54 [Information] (SearchProductsByCategoryIdAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryIdAsync/38" responded 200 in 70.5106 ms
+2025-08-30 13:21:02 [Information] (SearchProductsByCategoryIdAsync) Start data export of Products from the database
+2025-08-30 13:21:02 [Information] (SearchProductsByCategoryIdAsync) Finish export result: there are no categories in the database
+2025-08-30 13:21:02 [Information] (SearchProductsByCategoryIdAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryIdAsync/400" responded 404 in 27.1738 ms
+2025-08-30 13:21:11 [Information] (SearchProductsByCategoryNameAsync) Start data export of Products from the database
+2025-08-30 13:21:11 [Information] (SearchProductsByCategoryNameAsync) data export of Products success
+2025-08-30 13:21:11 [Information] (SearchProductsByCategoryNameAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryNameAsync/Лекарственные средства" responded 200 in 55.5083 ms
+2025-08-30 13:21:16 [Information] (SearchProductsByCategoryNameAsync) Start data export of Products from the database
+2025-08-30 13:21:16 [Information] (SearchProductsByCategoryNameAsync) Finish export result: not found products
+2025-08-30 13:21:16 [Information] (SearchProductsByCategoryNameAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryNameAsync/Профилактика и лечение" responded 404 in 29.9823 ms
+2025-08-30 13:21:19 [Information] (SearchProductsByCategoryNameAsync) Start data export of Products from the database
+2025-08-30 13:21:19 [Information] (SearchProductsByCategoryNameAsync) data export of Products success
+2025-08-30 13:21:19 [Information] (SearchProductsByCategoryNameAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryNameAsync/Гормоны для системного применения" responded 200 in 28.9412 ms
+2025-08-30 13:21:23 [Information] (SearchProductsByCategoryNameAsync) Start data export of Products from the database
+2025-08-30 13:21:23 [Information] (SearchProductsByCategoryNameAsync) Finish export result: there are no categories in the database
+2025-08-30 13:21:23 [Information] (SearchProductsByCategoryNameAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryNameAsync/asdfasdf" responded 404 in 28.9182 ms
+2025-08-30 13:21:30 [Information] (SearchProductsByNameProductAsync) Start data export of Products from the database
+2025-08-30 13:21:30 [Information] (SearchProductsByNameProductAsync) data export of Products success
+2025-08-30 13:21:30 [Information] (SearchProductsByNameProductAsync) HTTP "GET" "/pars/Apteka/SearchProductsByNameProductAsync/Пропицил" responded 200 in 35.1883 ms
+2025-08-30 13:21:34 [Information] (SearchProductsByNameProductAsync) Start data export of Products from the database
+2025-08-30 13:21:34 [Information] (SearchProductsByNameProductAsync) Finish export result: not found products
+2025-08-30 13:21:34 [Information] (SearchProductsByNameProductAsync) HTTP "GET" "/pars/Apteka/SearchProductsByNameProductAsync/L-тироксин" responded 404 in 27.1859 ms
+2025-08-30 13:21:37 [Information] (SearchProductsByNameProductAsync) Start data export of Products from the database
+2025-08-30 13:21:37 [Information] (SearchProductsByNameProductAsync) Finish export result: not found products
+2025-08-30 13:21:37 [Information] (SearchProductsByNameProductAsync) HTTP "GET" "/pars/Apteka/SearchProductsByNameProductAsync/asdfasdf" responded 404 in 27.0819 ms
+2025-08-30 13:26:15 [Information] () Starting web application
+2025-08-30 13:26:15 [Information] (LaunchCategPars) Start parsing Apteka.ru
+2025-08-30 13:26:15 [Information] (LaunchCategPars) Finish parsing Apteka.ru
+2025-08-30 13:26:15 [Information] (LaunchProductsPars) Start parsing Apteka.ru
+2025-08-30 13:26:15 [Information] (LaunchProductsPars) Finish parsing Apteka.ru
+2025-08-30 13:26:39 [Information] (SearchProductsByCategoryIdAsync) Start data export of Products from the database
+2025-08-30 13:26:39 [Information] (SearchProductsByCategoryIdAsync) data export of Products success
+2025-08-30 13:26:39 [Information] (SearchProductsByCategoryIdAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryIdAsync/1" responded 200 in 242.8743 ms
+2025-08-30 13:26:47 [Information] (SearchProductsByCategoryIdAsync) Start data export of Products from the database
+2025-08-30 13:26:47 [Information] (SearchProductsByCategoryIdAsync) Finish export result: not found products
+2025-08-30 13:26:47 [Information] (SearchProductsByCategoryIdAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryIdAsync/2" responded 404 in 80.3017 ms
+2025-08-30 13:26:52 [Information] (SearchProductsByCategoryIdAsync) Start data export of Products from the database
+2025-08-30 13:26:52 [Information] (SearchProductsByCategoryIdAsync) data export of Products success
+2025-08-30 13:26:52 [Information] (SearchProductsByCategoryIdAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryIdAsync/38" responded 200 in 45.2818 ms
+2025-08-30 13:26:59 [Information] (SearchProductsByCategoryIdAsync) Start data export of Products from the database
+2025-08-30 13:26:59 [Information] (SearchProductsByCategoryIdAsync) Finish export result: there are no categories in the database
+2025-08-30 13:26:59 [Information] (SearchProductsByCategoryIdAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryIdAsync/400" responded 404 in 41.0953 ms
+2025-08-30 13:27:04 [Information] (SearchProductsByCategoryNameAsync) Start data export of Products from the database
+2025-08-30 13:27:04 [Information] (SearchProductsByCategoryNameAsync) data export of Products success
+2025-08-30 13:27:04 [Information] (SearchProductsByCategoryNameAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryNameAsync/Лекарственные средства" responded 200 in 56.8384 ms
+2025-08-30 13:27:09 [Information] (SearchProductsByCategoryNameAsync) Start data export of Products from the database
+2025-08-30 13:27:09 [Information] (SearchProductsByCategoryNameAsync) Finish export result: not found products
+2025-08-30 13:27:09 [Information] (SearchProductsByCategoryNameAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryNameAsync/Профилактика и лечение" responded 404 in 35.4221 ms
+2025-08-30 13:27:13 [Information] (SearchProductsByCategoryNameAsync) Start data export of Products from the database
+2025-08-30 13:27:13 [Information] (SearchProductsByCategoryNameAsync) data export of Products success
+2025-08-30 13:27:13 [Information] (SearchProductsByCategoryNameAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryNameAsync/Гормоны для системного применения" responded 200 in 29.8515 ms
+2025-08-30 13:27:19 [Information] (SearchProductsByCategoryNameAsync) Start data export of Products from the database
+2025-08-30 13:27:19 [Information] (SearchProductsByCategoryNameAsync) Finish export result: there are no categories in the database
+2025-08-30 13:27:19 [Information] (SearchProductsByCategoryNameAsync) HTTP "GET" "/pars/Apteka/SearchProductsByCategoryNameAsync/asdfasdf" responded 404 in 33.4725 ms
+2025-08-30 13:27:23 [Information] (SearchProductsByNameProductAsync) Start data export of Products from the database
+2025-08-30 13:27:23 [Information] (SearchProductsByNameProductAsync) data export of Products success
+2025-08-30 13:27:23 [Information] (SearchProductsByNameProductAsync) HTTP "GET" "/pars/Apteka/SearchProductsByNameProductAsync/Пропицил" responded 200 in 45.5377 ms
+2025-08-30 13:27:27 [Information] (SearchProductsByNameProductAsync) Start data export of Products from the database
+2025-08-30 13:27:27 [Information] (SearchProductsByNameProductAsync) Finish export result: not found products
+2025-08-30 13:27:27 [Information] (SearchProductsByNameProductAsync) HTTP "GET" "/pars/Apteka/SearchProductsByNameProductAsync/L-тироксин" responded 404 in 24.9349 ms
+2025-08-30 13:27:38 [Information] (SearchProductsByNameProductAsync) Start data export of Products from the database
+2025-08-30 13:27:38 [Information] (SearchProductsByNameProductAsync) Finish export result: not found products
+2025-08-30 13:27:38 [Information] (SearchProductsByNameProductAsync) HTTP "GET" "/pars/Apteka/SearchProductsByNameProductAsync/Йодамарин" responded 404 in 37.4736 ms
+2025-08-30 13:27:56 [Information] (SearchProductsByNameProductAsync) Start data export of Products from the database
+2025-08-30 13:27:56 [Information] (SearchProductsByNameProductAsync) data export of Products success
+2025-08-30 13:27:56 [Information] (SearchProductsByNameProductAsync) HTTP "GET" "/pars/Apteka/SearchProductsByNameProductAsync/Йодомарин" responded 200 in 28.5073 ms
+2025-08-30 13:28:00 [Information] (SearchProductsByNameProductAsync) Start data export of Products from the database
+2025-08-30 13:28:00 [Information] (SearchProductsByNameProductAsync) Finish export result: not found products
+2025-08-30 13:28:00 [Information] (SearchProductsByNameProductAsync) HTTP "GET" "/pars/Apteka/SearchProductsByNameProductAsync/asdfasdf" responded 404 in 26.0908 ms

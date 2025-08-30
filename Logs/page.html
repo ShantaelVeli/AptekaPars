@@ -1,0 +1,58 @@
+<html lang="ru"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, height=device-height, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, viewport-fit=cover">
+    <title>Apteka.ru - С вашего IP замечена подозрительная активность</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&amp;display=swap" rel="stylesheet">
+    <link rel="icon" href="/static/Favicon.ico" type="image/x-icon">
+    <style>.button,h1,p{font-family:'Source Sans Pro';line-height:150%}.button,body{align-items:center}h1,p{font-style:normal}.button:hover,h1{color:#1c257b}.button,.thumb{cursor:pointer}.slider::before,.thumb{box-sizing:border-box;position:absolute}.slider::before,.slider[data-loader],.slider[data-success],.thumb[data-stop]{pointer-events:none}.slider::before,.thumb::before{content:'';width:36px;height:36px;top:4px}body{display:flex;justify-content:flex-end;flex-direction:column;text-align:center;padding:20px;min-height:100vh;margin:0;background-color:#fff}footer{margin-top:20vh;margin-bottom:9vh}h1{font-weight:600;font-size:32px;margin:0 0 36px}.button,p{margin:0}p{font-weight:400;font-size:16px}.content>img{max-width:100%;margin-bottom:36px}p small{font-size:12px;color:#999}.button{font-size:14px;color:#4665d7;display:inline-flex;border:0;background:0 0;gap:6px;padding:4px 6px}.copy-icon[hidden]{display:none;visibility:hidden}.copy-icon[hidden]+.success-icon,.slider[data-error] .error,.slider[data-success] .success,.thumb .arrow{display:block}.slider-wrap[aria-hidden] .thumb,.slider[data-error] .arrow,.slider[data-loader] .arrow,.slider[data-success] .arrow,.success-icon,.thumb>img{display:none}.logo{margin-bottom:28px}.social__icon{position:relative;display:inline-block;width:34px;height:34px;border-radius:4px;background-color:#e0e1f3;margin-right:10px;transition:color .25s ease-out}.social__icon:hover{background-color:#c9cbe7}.social__icon:last-child{margin-right:0}.social__icon>img{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}@media (max-width:800px){h1{font-size:20px}.content>img{width:220px}footer{margin-top:15vh}}.slider-wrap{margin:24px auto;transition:opacity .25s}.slider-wrap[aria-hidden]{visibility:hidden;pointer-events:none;opacity:0;z-index:-1}.slider-wrap p{margin-bottom:12px;line-height:1.2}.slider{position:relative;width:213px;height:44px;margin:0 auto;border-radius:91px;background:linear-gradient(260deg,rgba(208,229,251,.47) 4.68%,rgba(94,145,200,.36) 99.18%)}.slider::before{right:4px;border:2px dashed rgba(255,255,255,.5);border-radius:50%}.thumb{width:44px;height:44px;top:0;left:0;display:flex;align-items:center;justify-content:center}.thumb:hover::before,.thumb[data-stop]::before{outline-color:#d0d3ea}.thumb:hover::before{animation:.5s gelatine}@keyframes gelatine{from,to{transform:scale(1,1)}25%{transform:scale(.9,1.1)}50%{transform:scale(1.1,.9)}75%{transform:scale(.95,1.05)}}.thumb::before{position:absolute;left:4px;background-color:#fff;border-radius:50%;outline:transparent solid 2px}.thumb>img{position:relative;z-index:1}.thumb>img[hidden]{position:absolute;top:100vh;visibility:hidden;z-index:-1}.thumb .spinner{animation:.5s infinite paused spin}@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}.slider[data-loader] .spinner{display:block;animation-play-state:running}</style>
+</head>
+
+<body>
+    <main>
+        <h1>Подозрительная активность!</h1>
+        <div class="content">
+            <img alt="alert-cat" data-src="/432/static/Suspicious-Cat.png">
+            <p>С вашего IP замечена подозрительная активность</p>
+            <div class="slider-wrap" aria-hidden="">
+                <p><small>Чтобы продолжить, зажмите и переместите стрелку до конца поля</small></p>
+                <div class="slider">
+                    <div class="thumb">
+                        <img class="arrow" width="16" height="16" loading="lazy" data-src="/432/static/Arrow.png">
+                        <img class="spinner" width="16" height="16" loading="lazy" data-src="/432/static/Spinner.png">
+                        <img class="success" width="24" height="24" loading="lazy" data-src="/432/static/Valid.png">
+                        <img class="error" width="18" height="18" loading="lazy" data-src="/432/static/Error.png">
+                    </div>
+                </div>
+            </div>
+            <div class="user-info">
+                <p><small>ID запроса: <span id="RequestId"></span></small></p>
+                <p><small>Ваш IP: <span id="Client-Ip"></span></small></p>
+            </div>
+            <button type="button" class="button" onclick="copyInfo()">
+                <span>Копировать</span>
+                <img width="24" height="24" class="copy-icon" data-src="/432/static/Copy.png">
+                <img width="24" height="24" class="success-icon" data-src="/432/static/Success.png">
+            </button>
+        </div>
+    </main>
+    <footer>
+        <div class="logo">
+            <img data-src="/static/Logo.png">
+        </div>
+        <div class="social">
+            <a href="https://vk.com/aptekaru" target="_blank" class="social__icon">
+                <img data-src="/static/Vk-logo.png">
+            </a>
+            <a href="https://ok.ru/apteka.ru" target="_blank" class="social__icon">
+                <img data-src="/static/Ok-Logo.png">
+            </a>
+        </div>
+    </footer>
+    <script>function startDrag(){return!1}function click(e){e.preventDefault();let t=document.querySelector(".slider"),n=document.querySelector(".spinner"),r=document.querySelector(".success"),i=document.querySelector(".error"),o=document.querySelector(".thumb"),a=n.getAttribute("src"),c=r.getAttribute("src"),s=i.getAttribute("src");n.removeAttribute("src"),n.removeAttribute("loading"),r.removeAttribute("src"),r.removeAttribute("loading"),i.removeAttribute("src"),i.removeAttribute("loading");let l=o.getBoundingClientRect(),u=e.clientX,d=e.clientY;"ontouchstart"in window&&(u=e.touches[0].clientX,d=e.touches[0].clientY);let h=l.x,f=l.y+l.height+window.scrollY;function m(e){let n=e.clientX;"ontouchstart"in window&&(n=e.touches[0].clientX);let r=n-u,i=t.offsetWidth-o.offsetWidth;r<0&&(r=0),r>i&&(r=i),o.style.left=r+"px"}function p(e){let y=o.offsetLeft,g=t.offsetWidth-o.offsetWidth,$=t.offsetLeft+y+o.clientWidth,v=l.y+window.scrollY;if(y===g){let C="ontouchstart"in window?e.changedTouches[0].clientX:e.clientX,b="ontouchstart"in window?e.changedTouches[0].clientY:e.clientY,k={startX:h,startY:f,endX:$,endY:v,smx:u,smy:d,emx:C,emy:b},w={clientX:C,clientY:b};o.setAttribute("data-stop","");let A=e=>new Promise((t,n)=>setTimeout(t,e));A(1).then(async()=>(checkForkChosen(k),n.setAttribute("src",a),t.setAttribute("data-loader",""),await A(3e3))).then(async()=>{let e=await checkEyeDamage(w);return!e||"boolean"!=typeof e||(r.setAttribute("src",c),t.removeAttribute("data-loader"),t.setAttribute("data-success",""),await A(1e3))}).then(async e=>{if(e){i.setAttribute("src",s),t.removeAttribute("data-loader"),t.setAttribute("data-error","");return}let n=new URLSearchParams(window.location.search),r=n.get("from");window.location=r})}else o.style.left="0px";"ontouchstart"in window?(document.removeEventListener("touchmove",m),document.removeEventListener("touchend",p)):(document.removeEventListener("mouseup",p),document.removeEventListener("mousemove",m))}"ontouchstart"in window?(document.addEventListener("touchmove",m),document.addEventListener("touchend",p)):(document.addEventListener("mousemove",m),document.addEventListener("mouseup",p))}document.addEventListener("DOMContentLoaded",async function(){let e=new URLSearchParams(window.location.search),t=e.get("rqid"),n=e.get("ip"),r=document.querySelector("#RequestId"),i=document.querySelector("#Client-Ip"),o=document.querySelectorAll("body img");r.textContent=t,i.textContent=n;let a=new Date().getTime(),c=document.querySelector("link[rel~='icon']");c||((c=document.createElement("link")).rel="icon",c.type="image/x-icon",document.head.appendChild(c)),c.href=`/static/Favicon.ico?v=${a%10}`,await new Promise(e=>{o.forEach(e=>{let t=e.getAttribute("data-src");e.setAttribute("src",`${t}?v=${a%10}`)}),e()});let s=document.querySelector(".slider-wrap"),l=await initClientChecking(),u={r:l};l&&await enterHata(u).finally(()=>{setTimeout(()=>{s.removeAttribute("aria-hidden")},2e3)});let d=document.querySelector(".thumb");d.addEventListener("dragstart",startDrag),"ontouchstart"in window?d.addEventListener("touchstart",click):d.addEventListener("mousedown",click)});const initClientChecking=async()=>fetch("https://api.apteka.ru/ClientInfo/InitParams",{method:"GET",headers:{"Content-Type":"application/json"}}).then(async r=>{if(200===r.status){let data=await r.json();if(!data)return null;let params=Object.entries(data||{}).map(([key,val])=>{let decodedStr,value;if("undefined"!=typeof atob&&(decodedStr=atob(val)),"undefined"!=typeof Buffer&&(decodedStr=Buffer.from(val,"base64").toString("binary")),decodedStr)try{value=eval(decodedStr)}catch(e){console.warn(e.message)}return`${key}:${value};`});if(params.length){let paramsStr=params.join(""),paramsBase64;if("undefined"!=typeof btoa&&(paramsBase64=btoa(paramsStr)),"undefined"!=typeof Buffer&&(paramsBase64=Buffer.from(paramsStr).toString("base64")),paramsBase64)return paramsBase64}return null}}).catch(e=>null),enterHata=async e=>fetch(`https://err.apteka.ru/Captcha/WelcomeToTheClub?${new URLSearchParams(e)}`,{method:"PUT",headers:{"Content-Type":"application/json"}}).then(e=>e).catch(e=>e),checkForkChosen=e=>fetch(`https://err.apteka.ru/Captcha/ChooseFork?${new URLSearchParams(e)}`,{method:"PUT",headers:{"Content-Type":"application/json"}}).then(e=>{let t=e.headers.get("X-Ciid-H");return t&&setCookie("X-Ciid-H",t,6048e5),e}).catch(e=>e),checkEyeDamage=async e=>{let t=readCookie("X-Ciid-H"),n={"Content-Type":"application/json"};return t&&(n["X-Ciid-H"]=t),await fetch(`https://err.apteka.ru/Captcha/EyeDamaged?${new URLSearchParams(e)}`,{method:"GET",headers:n}).then(e=>{let t=e.headers.get("X-Ciid-B");return t&&setCookie("X-Ciid-B",t,6048e5),e?.status===311}).catch(e=>e)};function copyInfo(){let e=new URLSearchParams(window.location.search),t=e.get("rqid"),n=e.get("ip"),r=document.querySelector(".copy-icon"),i=`ID запроса: ${t}
+IP: ${n}`;navigator.clipboard.writeText(i),r.setAttribute("hidden",""),window.setTimeout(()=>r.removeAttribute("hidden"),2500)}function setCookie(e,t,n){let r=new Date;r.setTime(r.getTime()+n);let i="undefined"==typeof window?"":location.hostname,[,o,a]=/(\w+)\.(\w+)$/.exec(i)||[],c=o&&a?`${o}.${a}`:i;document.cookie=`${e}=${t};domain=.${c};path=/;expires=${r.toUTCString()};`}function readCookie(e){let t=document.cookie.match(RegExp("(?:^|; )"+e.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g,"\\$1")+"=([^;]*)"));return t?decodeURIComponent(t[1]):void 0}</script>
+
+
+</body></html>
