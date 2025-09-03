@@ -17,8 +17,8 @@ namespace Parse.Core.Hangfire
                 );
                 Log.Information("Finish parsing Apteka.ru");
 
-                // var recurringJobManager = new RecurringJobManager();
-                // recurringJobManager.TriggerJob("category-parser");
+                var recurringJobManager = new RecurringJobManager();
+                recurringJobManager.TriggerJob("category-parser");
             }
             catch
             {
