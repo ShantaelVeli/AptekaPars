@@ -12,7 +12,6 @@ using Microsoft.EntityFrameworkCore;
 serialogConfig.ConfigureLogger();
 Log.Information("Starting web application");
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<ParseFull>();

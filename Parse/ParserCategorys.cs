@@ -7,67 +7,70 @@ namespace Parse
 {
     public class ParseCategory
     {
-        public static async Task<Category[]> ParseMainCategorysAsync(ParserSetting Catalogy)
+        public static async Task<Category[]> ParseMainCategorysAsync(ParserSetting Catalogy, List<ProxySetting>? proxy)
         {
-            IHtmlDocument? htmlContent = await HtmlLoader.HtmlDownlLoader(Catalogy, 1);
+            IHtmlDocument? htmlContent = null;
             var result = new List<Category>();
+
+
+            if (proxy != null)
+            {
+                foreach (var x in proxy)
+                {
+                    if (x.Toggle == true)
+                        htmlContent = await HtmlLoader.HtmlDownlLoader(Catalogy, 1, x);
+                    else continue;
+                    if (htmlContent != null) break;
+                }
+            }
+
+            if (htmlContent == null)
+                htmlContent = await HtmlLoader.HtmlDownlLoader(Catalogy, 1, null);
+
 
             if (htmlContent != null && Catalogy.ClassName != null && Catalogy.CssSelector != null)
             {
                 Log.Information("Starting the main categories parser");
-                try
+
+                var div = htmlContent.QuerySelector(Catalogy.CssSelector + "." + Catalogy.ClassName);
+
+                if (div != null)
                 {
-                    var div = htmlContent.QuerySelector(Catalogy.CssSelector + "." + Catalogy.ClassName);
-
-                    if (div != null)
+                    var li = div.QuerySelectorAll("a");
+                    if (li != null)
                     {
-                        try
+                        foreach (var x in li)
                         {
-                            var li = div.QuerySelectorAll("a");
-                            if (li != null)
+                            var buffer = new Category
                             {
-                                foreach (var x in li)
-                                {
-                                    var buffer = new Category
-                                    {
-                                        NameCategory = x.TextContent
-                                    };
-                                    if (x.GetAttribute("href")?[0] == '/')
-                                    {
-                                        buffer.UrlCategory = Catalogy.BaseUrls + x.GetAttribute("href");
+                                NameCategory = x.TextContent
+                            };
+                            if (x.GetAttribute("href")?[0] == '/')
+                            {
+                                buffer.UrlCategory = Catalogy.BaseUrls + x.GetAttribute("href");
 
-                                    }
-                                    else
-                                    {
-                                        buffer.UrlCategory = x.GetAttribute("href");
-                                    }
-                                    result.Add(buffer);
-                                }
                             }
                             else
                             {
-                                Log.Error("Not found selector:'a' from div.SidebarCategoriesList");
+                                buffer.UrlCategory = x.GetAttribute("href");
                             }
-                        }
-                        catch (DomException ex)
-                        {
-                            Log.Error($"Selector error: {ex.Message}");//вывод ошибки
+                            result.Add(buffer);
                         }
                     }
                     else
                     {
-                        Log.Error("Not found selector: div.SidebarCategoriesList");
+                        Log.Error("Not found selector:'a' from div.SidebarCategoriesList");
                     }
                 }
-                catch (DomException dex)
+                else
                 {
-                    Log.Error($"Selector error:: {dex.Message}"); //вывод ошибки
+                    Log.Error("Not found selector: div.SidebarCategoriesList");
                 }
             }
             return result.ToArray();
         }
 
-        public static async Task<Category[]> ParseSubCategorysAsync(List<Category> MainCategoryUrl, ParserSetting Aptekaru)
+        public static async Task<Category[]> ParseSubCategorysAsync(List<Category> MainCategoryUrl, ParserSetting Aptekaru, List<ProxySetting>? proxy)
         {
             ParserSetting pars = new ParserSetting
             {
@@ -78,68 +81,72 @@ namespace Parse
 
             var result = new List<Category>();
             Random rnd = new Random();
+            int indexProxy = 0;
 
             if (MainCategoryUrl.Count != 0)
             {
                 Log.Information("Starting the sub categories parser");
                 foreach (var x in MainCategoryUrl)
                 {
-                    Thread.Sleep(rnd.Next(3, 6) * 1000);
+                    await Task.Delay(rnd.Next(3, 6) * 1000);
                     pars.BaseUrls = x.UrlCategory;
                     int ParentId = x.Id;
-                    IHtmlDocument? htmlContent = await HtmlLoader.HtmlDownlLoader(pars, 1);
+                    IHtmlDocument? htmlContent = null;
+
+                    if (proxy != null)
+                    {
+                        for (int i = indexProxy; i < proxy.Count; i++)
+                        {
+                            indexProxy++;
+                            if (indexProxy >= proxy.Count) indexProxy = 0;
+                            if (proxy[i].Toggle == false) continue;
+                            htmlContent = await HtmlLoader.HtmlDownlLoader(pars, 1, proxy[i]);
+
+                            if (htmlContent != null) break;
+                        }
+                    }
+
+                    if (htmlContent == null)
+                        htmlContent = await HtmlLoader.HtmlDownlLoader(pars, 1, null);
+
                     if (htmlContent != null)
                     {
-                        try
+                        var div = htmlContent.QuerySelector(pars.CssSelector + "." + pars.ClassName);
+
+                        if (div != null)
                         {
-                            var div = htmlContent.QuerySelector(pars.CssSelector + "." + pars.ClassName);
-
-                            if (div != null)
+                            var li = div.QuerySelectorAll("a");
+                            if (li != null)
                             {
-                                try
+                                foreach (var y in li)
                                 {
-                                    var li = div.QuerySelectorAll("a");
-                                    if (li != null)
+                                    var buffer = new Category
                                     {
-                                        foreach (var y in li)
-                                        {
-                                            var buffer = new Category
-                                            {
-                                                NameCategory = y.TextContent,
-                                                ParentCategoryId = ParentId
-                                            };
-                                            if (y.GetAttribute("href")?[0] == '/')
-                                            {
-                                                buffer.UrlCategory = Aptekaru.BaseUrls + y.GetAttribute("href");
-
-                                            }
-                                            else
-                                            {
-                                                buffer.UrlCategory = y.GetAttribute("href");
-                                            }
-
-                                            result.Add(buffer);
-                                        }
+                                        NameCategory = y.TextContent,
+                                        ParentCategoryId = ParentId
+                                    };
+                                    if (y.GetAttribute("href")?[0] == '/')
+                                    {
+                                        buffer.UrlCategory = Aptekaru.BaseUrls + y.GetAttribute("href");
                                     }
                                     else
                                     {
-                                        Log.Error("Not found selector:'a' from div.SidebarCategoriesList");
+                                        buffer.UrlCategory = y.GetAttribute("href");
                                     }
-                                }
-                                catch (DomException dex)
-                                {
-                                    Console.WriteLine($"Ошибка селектора: {dex.Message}");//вывод ошибки
-                                }
 
+                                    result.Add(buffer);
+                                }
                             }
                             else
                             {
-                                Log.Error("Not found selector: div.SidebarCategoriesList");
+                                Log.Error("Not found selector:'a' from div.SidebarCategoriesList");
                             }
+
+
                         }
-                        catch (DomException dex)
+                        else
                         {
-                            Log.Error(dex.Message); //вывод ошибки
+                            Log.Error("Not found selector: div.SidebarCategoriesList");
                         }
                     }
                 }

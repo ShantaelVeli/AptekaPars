@@ -13,15 +13,19 @@ namespace Parse.Core.Hangfire
                 RecurringJob.AddOrUpdate<ParseFull>(
                     "category-parser",
                     x => x.ParsingFullCategoryAsync(),
-                    Cron.Weekly()
+                    Cron.Monthly
                 );
                 Log.Information("Finish parsing Apteka.ru");
+
+                // var recurringJobManager = new RecurringJobManager();
+                // recurringJobManager.TriggerJob("category-parser");
             }
             catch
             {
                 Log.Fatal("The parser was not started");
             }
         }
+
         public static void LaunchProductsPars(this IApplicationBuilder ab)
         {
             try
@@ -30,8 +34,10 @@ namespace Parse.Core.Hangfire
                 RecurringJob.AddOrUpdate<ParseFull>(
                     "product-parser",
                     x => x.ParsingFullProductsAsync(),
-                    Cron.Daily()
+                    Cron.Weekly
                 );
+                var recurringJobManager = new RecurringJobManager();
+                recurringJobManager.TriggerJob("product-parser");
                 Log.Information("Finish parsing Apteka.ru");
             }
             catch

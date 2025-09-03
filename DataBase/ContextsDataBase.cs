@@ -25,15 +25,15 @@ namespace DataBase.Contexts
 
         public string? Name { get; set; }
 
-        public double Price { get; set; }
+        public double Price { get; set; }//
 
-        public string? ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }//
 
-        public string? ProdUrl { get; set; }
+        public string? ProdUrl { get; set; }//
 
         public string? Availability { get; set; }
 
-        public int CategoryId { get; set; }
+        public int CategoryId { get; set; }//
         public Category? Category { get; set; }
 
     }
