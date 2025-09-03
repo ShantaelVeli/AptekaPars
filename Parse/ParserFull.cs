@@ -38,7 +38,7 @@ namespace Parse
             List<Category> subCategoryUrl = await PullData.PullAllSubCategorys(_db);
             int indexProxy = 0;
 
-            for (int i = 1; i < 2; i++) //subCategoryUrl.Count
+            for (int i = 0; i < subCategoryUrl.Count; i++) //subCategoryUrl.Count
             {
                 Product[] products = await ParsProduct.ParsProductGet(subCategoryUrl[i], AptekaRu, _proxy, indexProxy);
                 await PushData.PushDataBase(products, _db);
