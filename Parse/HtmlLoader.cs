@@ -76,8 +76,6 @@ namespace Parse
             var doc = await context.OpenAsync(set.BaseUrls + "?page=" + page);
             var parser = new HtmlParser();
             string htmlContent = doc.DocumentElement.OuterHtml;
-            string path = "./Logs/page.html";
-            File.WriteAllText(path, htmlContent);
             IHtmlDocument document = await parser.ParseDocumentAsync(htmlContent);
             var div = document.QuerySelector("div.SidebarCategoriesList");
             if (div != null)

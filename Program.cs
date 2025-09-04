@@ -19,7 +19,7 @@ builder.Services.AddHangfire(config => config
     .SetDataCompatibilityLevel(CompatibilityLevel.Version_180)
     .UseSimpleAssemblyNameTypeSerializer()
     .UseRecommendedSerializerSettings()
-    .UsePostgreSqlStorage(options => options.UseNpgsqlConnection("Host=localhost;Port=5432;Database=AptekaRU;Username=postgres;Password=468279135")));
+    .UsePostgreSqlStorage(options => options.UseNpgsqlConnection(builder.Configuration.GetConnectionString("DefaultConnection"))));
 
 builder.Services.AddHangfireServer(options =>
 {
@@ -32,7 +32,7 @@ builder.Services.AddSingleton<Serilog.Extensions.Hosting.DiagnosticContext>();
 builder.Services.AddSingleton(Log.Logger);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<ApplicationContext>(options =>
-    options.UseNpgsql("Host=localhost;Port=5432;Database=AptekaRU;Username=postgres;Password=468279135"));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
