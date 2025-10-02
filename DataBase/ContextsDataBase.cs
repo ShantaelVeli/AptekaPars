@@ -1,5 +1,6 @@
 using DataBase.ModBuilder;
 using Microsoft.EntityFrameworkCore;
+using NpgsqlTypes;
 
 namespace DataBase.Contexts
 {
@@ -36,6 +37,8 @@ namespace DataBase.Contexts
         public int CategoryId { get; set; }//
         public Category? Category { get; set; }
 
+        public NpgsqlTsVector SearchVector { get; set; }
+
     }
 
     public class ApplicationContext : DbContext
@@ -54,7 +57,8 @@ namespace DataBase.Contexts
         {
             modelBuilder
             .AddHasKey()
-            .AddForiginKey();
+            .AddForiginKey()
+            .AddFullTextSearch();
         }
     }
 

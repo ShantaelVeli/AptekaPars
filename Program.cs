@@ -7,12 +7,20 @@ using Parse.Core.Hangfire;
 using Microsoft.AspNetCore.Diagnostics;
 using DataBase.Contexts;
 using Microsoft.EntityFrameworkCore;
-
+using mservis.MiddleWare;
+using mservis.Models.Settings;
 
 serialogConfig.ConfigureLogger();
 Log.Information("Starting web application");
 
 var builder = WebApplication.CreateBuilder(args);
+
+var configuration = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json")
+    .AddEnvironmentVariables()
+    .Build();
+
+
 
 builder.Services.AddScoped<ParseFull>();
 builder.Services.AddHangfire(config => config
@@ -34,7 +42,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<ApplicationContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.Configure<ApiKeys>(configuration.GetSection("ApiKeySettings"));
+
 var app = builder.Build();
+
+app.UseMiddleware<ApiKeyAuth>();
 
 using (var scope = app.Services.CreateScope())
 {

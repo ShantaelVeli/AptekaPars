@@ -2407,11 +2407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu/ParsAptekaRu.csproj",
+      "projectUniqueName": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu-ARM-konctrukro/ParsAptekaRu.csproj",
       "projectName": "ParsAptekaRu",
-      "projectPath": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu/ParsAptekaRu.csproj",
+      "projectPath": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu-ARM-konctrukro/ParsAptekaRu.csproj",
       "packagesPath": "/Users/veliagaev/.nuget/packages/",
-      "outputPath": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu/obj/",
+      "outputPath": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu-ARM-konctrukro/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/veliagaev/.nuget/NuGet/NuGet.Config"

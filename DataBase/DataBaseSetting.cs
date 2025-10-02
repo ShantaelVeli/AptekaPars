@@ -28,5 +28,18 @@ namespace DataBase.ModBuilder
             );
             return modelBuilder;
         }
+
+        public static ModelBuilder AddFullTextSearch(this ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Product>()
+                .HasGeneratedTsVectorColumn(
+                    p => p.SearchVector,
+                    "russian", // или "english" в зависимости от языка
+                    p => new { p.Name })
+                .HasIndex(p => p.SearchVector)
+                .HasMethod("GIN");
+
+            return modelBuilder;
+        }
     }
 }
