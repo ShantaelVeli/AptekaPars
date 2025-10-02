@@ -1,0 +1,1223 @@
+{
+	"info": {
+		"_postman_id": "692f3427-c878-492a-aa7d-6fb19d65ddc0",
+		"name": "ParsAptekaRU",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48030855",
+		"_collection_link": "https://agaev-vili-5234249.postman.co/workspace/%D0%92%D0%B5%D0%BB%D0%B8-%D0%90%D0%B3%D0%B0%D0%B5%D0%B2's-Workspace~47a10bf1-c525-45c2-85b0-01800aae9016/collection/48030855-692f3427-c878-492a-aa7d-6fb19d65ddc0?action=share&source=collection_link&creator=48030855"
+	},
+	"item": [
+		{
+			"name": "pars",
+			"item": [
+				{
+					"name": "Apteka",
+					"item": [
+						{
+							"name": "SearchProductsByCategoryIdAsync",
+							"item": [
+								{
+									"name": "{CategoryId}",
+									"item": [
+										{
+											"name": "/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/1",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"pars",
+														"Apteka",
+														"SearchProductsByCategoryIdAsync",
+														"1"
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Bad Request",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryIdAsync",
+																":CategoryId"
+															],
+															"variable": [
+																{
+																	"key": "CategoryId"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												},
+												{
+													"name": "Internal Server Error",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryIdAsync",
+																":CategoryId"
+															],
+															"variable": [
+																{
+																	"key": "CategoryId"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												}
+											]
+										},
+										{
+											"name": "/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId Copy",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/2",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"pars",
+														"Apteka",
+														"SearchProductsByCategoryIdAsync",
+														"2"
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Bad Request",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryIdAsync",
+																":CategoryId"
+															],
+															"variable": [
+																{
+																	"key": "CategoryId"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												},
+												{
+													"name": "Internal Server Error",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryIdAsync",
+																":CategoryId"
+															],
+															"variable": [
+																{
+																	"key": "CategoryId"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												}
+											]
+										},
+										{
+											"name": "/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId Copy 2",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/38",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"pars",
+														"Apteka",
+														"SearchProductsByCategoryIdAsync",
+														"38"
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Bad Request",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryIdAsync",
+																":CategoryId"
+															],
+															"variable": [
+																{
+																	"key": "CategoryId"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												},
+												{
+													"name": "Internal Server Error",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryIdAsync",
+																":CategoryId"
+															],
+															"variable": [
+																{
+																	"key": "CategoryId"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												}
+											]
+										},
+										{
+											"name": "/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId Copy 3",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/400",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"pars",
+														"Apteka",
+														"SearchProductsByCategoryIdAsync",
+														"400"
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Bad Request",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryIdAsync",
+																":CategoryId"
+															],
+															"variable": [
+																{
+																	"key": "CategoryId"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												},
+												{
+													"name": "Internal Server Error",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryIdAsync/:CategoryId",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryIdAsync",
+																":CategoryId"
+															],
+															"variable": [
+																{
+																	"key": "CategoryId"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "SearchProductsByCategoryNameAsync",
+							"item": [
+								{
+									"name": "{CategoryName}",
+									"item": [
+										{
+											"name": "/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/Лекарственные средства",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"pars",
+														"Apteka",
+														"SearchProductsByCategoryNameAsync",
+														"Лекарственные средства"
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Bad Request",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryNameAsync",
+																":CategoryName"
+															],
+															"variable": [
+																{
+																	"key": "CategoryName"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												},
+												{
+													"name": "Internal Server Error",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryNameAsync",
+																":CategoryName"
+															],
+															"variable": [
+																{
+																	"key": "CategoryName"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												}
+											]
+										},
+										{
+											"name": "/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName Copy",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/Профилактика и лечение",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"pars",
+														"Apteka",
+														"SearchProductsByCategoryNameAsync",
+														"Профилактика и лечение"
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Bad Request",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryNameAsync",
+																":CategoryName"
+															],
+															"variable": [
+																{
+																	"key": "CategoryName"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												},
+												{
+													"name": "Internal Server Error",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryNameAsync",
+																":CategoryName"
+															],
+															"variable": [
+																{
+																	"key": "CategoryName"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												}
+											]
+										},
+										{
+											"name": "/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName Copy 2",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/Гормоны для системного применения",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"pars",
+														"Apteka",
+														"SearchProductsByCategoryNameAsync",
+														"Гормоны для системного применения"
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Bad Request",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryNameAsync",
+																":CategoryName"
+															],
+															"variable": [
+																{
+																	"key": "CategoryName"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												},
+												{
+													"name": "Internal Server Error",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryNameAsync",
+																":CategoryName"
+															],
+															"variable": [
+																{
+																	"key": "CategoryName"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												}
+											]
+										},
+										{
+											"name": "/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName Copy 3",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/asdfasdf",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"pars",
+														"Apteka",
+														"SearchProductsByCategoryNameAsync",
+														"asdfasdf"
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Bad Request",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryNameAsync",
+																":CategoryName"
+															],
+															"variable": [
+																{
+																	"key": "CategoryName"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												},
+												{
+													"name": "Internal Server Error",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByCategoryNameAsync/:CategoryName",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByCategoryNameAsync",
+																":CategoryName"
+															],
+															"variable": [
+																{
+																	"key": "CategoryName"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "SearchProductsByNameProductAsync",
+							"item": [
+								{
+									"name": "{NameProduct}",
+									"item": [
+										{
+											"name": "/pars/Apteka/SearchProductsByNameProductAsync/:NameProduct",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByNameProductAsync/Пропицил",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"pars",
+														"Apteka",
+														"SearchProductsByNameProductAsync",
+														"Пропицил"
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Bad Request",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByNameProductAsync/:NameProduct",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByNameProductAsync",
+																":NameProduct"
+															],
+															"variable": [
+																{
+																	"key": "NameProduct"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												},
+												{
+													"name": "Internal Server Error",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByNameProductAsync/:NameProduct",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByNameProductAsync",
+																":NameProduct"
+															],
+															"variable": [
+																{
+																	"key": "NameProduct"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												}
+											]
+										},
+										{
+											"name": "/pars/Apteka/SearchProductsByNameProductAsync/:NameProduct Copy",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByNameProductAsync/Йодомарин",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"pars",
+														"Apteka",
+														"SearchProductsByNameProductAsync",
+														"Йодомарин"
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Bad Request",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByNameProductAsync/:NameProduct",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByNameProductAsync",
+																":NameProduct"
+															],
+															"variable": [
+																{
+																	"key": "NameProduct"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												},
+												{
+													"name": "Internal Server Error",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByNameProductAsync/:NameProduct",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByNameProductAsync",
+																":NameProduct"
+															],
+															"variable": [
+																{
+																	"key": "NameProduct"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												}
+											]
+										},
+										{
+											"name": "/pars/Apteka/SearchProductsByNameProductAsync/:NameProduct Copy 2",
+											"request": {
+												"method": "GET",
+												"header": [
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByNameProductAsync/asdfasdf",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"pars",
+														"Apteka",
+														"SearchProductsByNameProductAsync",
+														"asdfasdf"
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "Bad Request",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByNameProductAsync/:NameProduct",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByNameProductAsync",
+																":NameProduct"
+															],
+															"variable": [
+																{
+																	"key": "NameProduct"
+																}
+															]
+														}
+													},
+													"status": "Bad Request",
+													"code": 400,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												},
+												{
+													"name": "Internal Server Error",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"key": "Accept",
+																"value": "text/plain"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/pars/Apteka/SearchProductsByNameProductAsync/:NameProduct",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"pars",
+																"Apteka",
+																"SearchProductsByNameProductAsync",
+																":NameProduct"
+															],
+															"variable": [
+																{
+																	"key": "NameProduct"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "json",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "application/json"
+														}
+													],
+													"cookie": [],
+													"body": "{\n  \"statusCode\": 9849,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}
