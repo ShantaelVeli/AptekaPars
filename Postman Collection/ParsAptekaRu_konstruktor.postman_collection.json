@@ -1,0 +1,307 @@
+{
+	"info": {
+		"_postman_id": "c0c0f466-dd57-4a40-9602-80c436b7068d",
+		"name": "ParsAptekaRu_konstruktor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48030855",
+		"_collection_link": "https://agaev-vili-5234249.postman.co/workspace/%D0%92%D0%B5%D0%BB%D0%B8-%D0%90%D0%B3%D0%B0%D0%B5%D0%B2's-Workspace~47a10bf1-c525-45c2-85b0-01800aae9016/collection/48030855-c0c0f466-dd57-4a40-9602-80c436b7068d?action=share&source=collection_link&creator=48030855"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "Data",
+					"item": [
+						{
+							"name": "search",
+							"item": [
+								{
+									"name": "/api/Data/search",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "text/plain"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"app\": {\n    \"appId\": \"string\",\n    \"appSecret\": \"string\"\n  },\n  \"searchPhraseList\": [\n    \"лим\"\n  ],\n  \"waitTimeout\": 0,\n  \"maxProductsCount\": 559\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/Data/search",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Data",
+												"search"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Bad Request",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													},
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"app\": {\n    \"appId\": \"string\",\n    \"appSecret\": \"string\"\n  },\n  \"searchPhraseList\": [\n    \"string\",\n    \"string\"\n  ],\n  \"waitTimeout\": 8122,\n  \"maxProductsCount\": 559\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/Data/search",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Data",
+														"search"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"statusCode\": 2975,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+										},
+										{
+											"name": "Internal Server Error",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													},
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"app\": {\n    \"appId\": \"string\",\n    \"appSecret\": \"string\"\n  },\n  \"searchPhraseList\": [\n    \"string\",\n    \"string\"\n  ],\n  \"waitTimeout\": 8122,\n  \"maxProductsCount\": 559\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/Data/search",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Data",
+														"search"
+													]
+												}
+											},
+											"status": "Internal Server Error",
+											"code": 500,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"statusCode\": 2975,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "details",
+							"item": [
+								{
+									"name": "/api/Data/details",
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "text/plain"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"app\": {\n    \"appId\": \"string\",\n    \"appSecret\": \"string\"\n  },\n  \"canLoadAttachments\": false,\n  \"productLinks\": [\n    \"https://apteka.ru/product/limfomiozot-kapli-dlya-priema-vnutr-gomeopaticheskie-30-ml-5e3266d1f5a9ae0001407727/\"\n  ]\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/Data/details",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"Data",
+												"details"
+											]
+										}
+									},
+									"response": [
+										{
+											"name": "Bad Request",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													},
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"app\": {\n    \"appId\": \"string\",\n    \"appSecret\": \"string\"\n  },\n  \"canLoadAttachments\": false,\n  \"productLinks\": [\n    \"string\",\n    \"string\"\n  ]\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/Data/details",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Data",
+														"details"
+													]
+												}
+											},
+											"status": "Bad Request",
+											"code": 400,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"statusCode\": 2975,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+										},
+										{
+											"name": "Internal Server Error",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													},
+													{
+														"key": "Accept",
+														"value": "text/plain"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n  \"app\": {\n    \"appId\": \"string\",\n    \"appSecret\": \"string\"\n  },\n  \"canLoadAttachments\": false,\n  \"productLinks\": [\n    \"string\",\n    \"string\"\n  ]\n}",
+													"options": {
+														"raw": {
+															"headerFamily": "json",
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/api/Data/details",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"api",
+														"Data",
+														"details"
+													]
+												}
+											},
+											"status": "Internal Server Error",
+											"code": 500,
+											"_postman_previewlanguage": "json",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "application/json"
+												}
+											],
+											"cookie": [],
+											"body": "{\n  \"statusCode\": 2975,\n  \"message\": \"string\",\n  \"stackTrace\": \"string\"\n}"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}

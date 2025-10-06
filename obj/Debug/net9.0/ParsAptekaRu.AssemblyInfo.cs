@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParsAptekaRu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc81537c168e0aa21c043a5af4d70f9389727e14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+324bb5664aa169883980a0d5f6776f53ad77c574")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParsAptekaRu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParsAptekaRu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
