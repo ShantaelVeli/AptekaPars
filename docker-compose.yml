@@ -1,0 +1,40 @@
+services:
+  apteka_pars:
+    container_name: apteka_pars_api
+    ports:
+      - 5050:5178
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - apteka_pars_network
+    depends_on:
+      apteka_pars_postgres_db:
+        condition: service_healthy
+  
+  apteka_pars_postgres_db:
+    container_name: app_psql
+    image: postgres:17
+    # ports:
+    #   - 5432:5432 
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 468279135
+      POSTGRES_DB: AptekaRUS
+      PGDATA: /var/lib/postgresql/data
+    volumes:
+      - apppgdata:/var/lib/postgresql/data
+    networks:
+      - apteka_pars_network
+    healthcheck:      
+      test: [ "CMD-SHELL", "pg_isready -U postgres -d AptekaRUS" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+networks:
+  apteka_pars_network:
+
+volumes:
+  apppgdata:
