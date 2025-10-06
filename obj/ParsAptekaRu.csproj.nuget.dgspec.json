@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/veliagaev/Desktop/csharp/ParsAptekaRu-ARM-konctrukro/ParsAptekaRu.csproj": {}
+    "/Users/veliagaev/Desktop/csharp/ParsAptekaRu/ParsAptekaRu.csproj": {}
   },
   "projects": {
-    "/Users/veliagaev/Desktop/csharp/ParsAptekaRu-ARM-konctrukro/ParsAptekaRu.csproj": {
+    "/Users/veliagaev/Desktop/csharp/ParsAptekaRu/ParsAptekaRu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu-ARM-konctrukro/ParsAptekaRu.csproj",
+        "projectUniqueName": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu/ParsAptekaRu.csproj",
         "projectName": "ParsAptekaRu",
-        "projectPath": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu-ARM-konctrukro/ParsAptekaRu.csproj",
+        "projectPath": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu/ParsAptekaRu.csproj",
         "packagesPath": "/Users/veliagaev/.nuget/packages/",
-        "outputPath": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu-ARM-konctrukro/obj/",
+        "outputPath": "/Users/veliagaev/Desktop/csharp/ParsAptekaRu/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/veliagaev/.nuget/NuGet/NuGet.Config"

@@ -40,15 +40,17 @@ namespace DataBase.Contexts.Controller
                 return BadRequest(ModelState);
             }
             var res = new List<Variant>();
+            
 
             foreach (var nameProduct in requestModel.SearchPhraseList)
             {
                 var buffer = new List<Product>();
+                var LowNameProduct = nameProduct.ToLower();
 
-                buffer = await _dbContext.Products.FromSqlRaw("SELECT * FROM \"Products\" c WHERE to_tsvector('russian', \"Name\") @@ plainto_tsquery({0}) LIMIT ({1});", nameProduct, requestModel.MaxProductsCount).ToListAsync();
+                buffer = await _dbContext.Products.FromSqlRaw("SELECT * FROM \"Products\" c WHERE to_tsvector('russian', \"Name\") @@ plainto_tsquery({0}) LIMIT ({1});", LowNameProduct, requestModel.MaxProductsCount).ToListAsync();
 
                 if (buffer.Count == 0)
-                    buffer = await _dbContext.Products.FromSqlRaw("SELECT * FROM \"Products\" c WHERE LOWER (c.\"Name\") LIKE LOWER ({0}) LIMIT ({1});", "%" + nameProduct + "%", requestModel.MaxProductsCount).ToListAsync();
+                    buffer = await _dbContext.Products.FromSqlRaw("SELECT * FROM \"Products\" c WHERE LOWER (c.\"Name\") LIKE LOWER ({0}) LIMIT ({1});", "%" + LowNameProduct + "%", requestModel.MaxProductsCount).ToListAsync();
 
                 foreach (var x in buffer)
                 {

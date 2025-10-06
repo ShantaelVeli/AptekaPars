@@ -112,7 +112,8 @@ namespace Parse
 
                     prod.CategoryId = SubCategoryUrl.Id;
                     prod.ImageUrl = x.QuerySelector("div.CardPhotos")?.QuerySelector(".CardPhotos img")?.GetAttribute("src");
-                    prod.Name = x.QuerySelector("span.catalog-card__name.emphasis")?.GetAttribute("title");
+                    string? buf = x.QuerySelector("span.catalog-card__name.emphasis")?.GetAttribute("title");
+                    prod.Name = buf?.ToLower();
 
                     var price = x.QuerySelector("span.moneyprice__roubles")?.TextContent.Trim();
                     if (price != null && price != "")
