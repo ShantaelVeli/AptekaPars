@@ -56,6 +56,10 @@
 
 ---
 
+## диаграма БД
+
+![Диаграмма процесса парсинга](assets/diagrambd.png)
+
 ## 📫 Связаться со мной
 
 - Telegram: [@errjaan](https://t.me/errjaan)  
