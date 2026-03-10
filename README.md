@@ -50,9 +50,9 @@
 
 ## 📈 Примеры запросов к API
 
-- `GET /api/category/{id}` – получить категорию по ID  
-- `GET /api/category/name/{name}` – получить категорию по имени  
-- `GET /api/product/{name}` – получить товар по имени  
+- `GET /pars/Apteka/SearchProductsByCategoryIdAsync/{CategoryId}` – получить категорию по ID  
+- `GET /pars/Apteka/SearchProductsByCategoryNameAsync/{CategoryName}` – получить категорию по имени 
+- `GET /pars/Apteka/SearchProductsByNameProductAsync/{NameProduct}` – получить товар по имени  
 
 ---
 
