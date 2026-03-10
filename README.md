@@ -56,7 +56,8 @@
 
 ---
 
-## 👨‍💻 Автор
+## 📫 Связаться со мной
 
-**Вели Агаев (ShantaelVeli)**  
-[GitHub](https://github.com/ShantaelVeli)
+- Telegram: [@errjaan](https://t.me/errjaan)  
+- Email: agaev.vili@gmail.com
+- Phone: +7(912)-010-09-96
